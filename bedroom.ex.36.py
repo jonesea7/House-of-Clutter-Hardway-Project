@@ -39,7 +39,7 @@ def bedroom():
             print("Stinking filth.")
             print("Continue or call it quits.")
 
-            choice = "> "
+            choice = input("> ")
 
             if "quit" in choice:
                 print("This is to gross to go on, you decide.")
